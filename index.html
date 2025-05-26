@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ega Nawwarasa Haditama</title>
+    <link rel="icon" href="images/EN_ICON.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <style>
+        *,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #001737;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            margin-bottom: 10px;
+        }
+
+        .about-section {
+            padding: 60px 0;
+        }
+
+        .contact {
+            background-image: url(images/v859-katie-20.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top ">
+        <div class="container px-5">
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="images/EN_ICON.png" alt="Logo" width="50" height="50"
+                    class="d-inline-block align-text-top me-2">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-5 bg-light text-center text-md-start">
+        <div class="container px-5">
+            <div class="px-4 py-5 my-5 text-center"> <img class="d-block mx-auto mb-4" src="images/photoega.png" alt=""
+                    width="200" height="200">
+                <h1 class="display-5 fw-bold text-body-emphasis">Hello, My Name is Ega.</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">Junior Web Developer passionate about coding, design, and building creative
+                        digital
+                        experiences.</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3"
+                            onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">Hire
+                            me!</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4"
+                            onclick="window.open('https://drive.google.com/drive/folders/1rW7sdvos2-1bgyZTRz2jJ8mhnbrkBDbv?usp=sharing')">Download
+                            CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-section">
+        <div class="container px-5">
+            <h2 class="text-center fw-bold">About me</h2>
+            <p class="text-center mb-5">Get to know Ega and his passion for web development and digital
+                creativity.</p>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="images/eganaww-pict.png" alt="About Photo" class="img-fluid rounded">
+                </div>
+                <div class="col-md-8 my-4">
+                    <h5 class="fw-bold">Ega Nawwarasa Haditama</h5>
+                    <p class="mb-1">Junior Web Developer</p>
+                    <p>Hello, my name is Ega Nawwarasa Haditama, born on January 4 2006. Since I was in vocational
+                        school, I have developed a strong passion for exploring the digital world. Currently, I continue
+                        to explore about coding, design, and various other creative projects. Let's collaborate to
+                        create something amazing!</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section bg-light" id="projects">
+        <div class="container">
+            <h2 class="text-center fw-bold pt-5">Projects</h2>
+            <p class="text-center mb-5">Explore a selection of websites Ega has built using WordPress.</p>
+            <div class="row g-4">
+                <!-- Project Card 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="images/project1.png" class="card-img-top" alt="Glatz Autocare">
+                        <div class="card-body">
+                            <h5 class="card-title">Glatz Autocare</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste doloremque necessitatibus
+                                deserunt quae commodi eveniet aperiam quod quibusdam non nemo!</p>
+                            <span class="badge bg-secondary">Website</span>
+                            <span class="badge bg-secondary">WordPress</span>
+                        </div>
+                    </div>
+                </div>
+                <!--Project Card 2-->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="images/project2.png" class="card-img-top" alt="Glatz Autocare">
+                        <div class="card-body">
+                            <h5 class="card-title">Kelas Magang Ajak Online</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste doloremque necessitatibus
+                                deserunt quae commodi eveniet aperiam quod quibusdam non nemo!</p>
+                            <span class="badge bg-secondary">Website</span>
+                            <span class="badge bg-secondary">WordPress</span>
+                        </div>
+                    </div>
+                </div>
+                <!--Project Card 3-->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="images/project3.png" class="card-img-top" alt="Glatz Autocare">
+                        <div class="card-body">
+                            <h5 class="card-title">Griya Vandel Indonesia</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste doloremque necessitatibus
+                                deserunt quae commodi eveniet aperiam quod quibusdam non nemo!</p>
+                            <span class="badge bg-secondary">Website</span>
+                            <span class="badge bg-secondary">WordPress</span>
+                        </div>
+                    </div>
+                </div>
+                <!--Project Card 4-->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="images/project4.PNG" class="card-img-top" alt="Glatz Autocare">
+                        <div class="card-body">
+                            <h5 class="card-title">Madani Plastik Industri</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste doloremque necessitatibus
+                                deserunt quae commodi eveniet aperiam quod quibusdam non nemo!</p>
+                            <span class="badge bg-secondary">Website</span>
+                            <span class="badge bg-secondary">WordPress</span>
+                        </div>
+                    </div>
+                </div>
+                <!--Project Card 5-->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="images/project5.PNG" class="card-img-top" alt="Glatz Autocare">
+                        <div class="card-body">
+                            <h5 class="card-title">Batik Chandani</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste doloremque necessitatibus
+                                deserunt quae commodi eveniet aperiam quod quibusdam non nemo!</p>
+                            <span class="badge bg-secondary">Website</span>
+                            <span class="badge bg-secondary">WordPress</span>
+                        </div>
+                    </div>
+                </div>
+                <!--Project Card 6-->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="images/project6.PNG" class="card-img-top" alt="Glatz Autocare">
+                        <div class="card-body">
+                            <h5 class="card-title">Pengrajin Kuningan</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste doloremque necessitatibus
+                                deserunt quae commodi eveniet aperiam quod quibusdam non nemo!</p>
+                            <span class="badge bg-secondary">Website</span>
+                            <span class="badge bg-secondary">WordPress</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="py-5" id="education">
+        <div class="container px-5">
+            <h2 class="text-center fw-bold">Education</h2>
+            <p class="text-center mb-5">See Ega’s educational background that shaped his tech journey.</p>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="border rounded p-4 h-100 shadow-sm">
+                        <img src="images/Logo_Universitas_Terbuka.svg.png" class="img-fluid my-2" width="100"
+                            height="100" alt="Universitas terbuka">
+                        <h5 class="fw-bold">Universitas Terbuka</h5>
+                        <p class="mb-1">Library Science</p>
+                        <p class="text-muted">2024 – Present</p>
+                        <p>I am currently expanding my skills in programming while aligning them with my academic in
+                            Library Science.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="border rounded p-4 h-100 shadow-sm">
+                        <img src="images/smkn5logo.png" width="100" height="100" class="img-fluid my-2 "
+                            alt="SMKN 5 Surakarta">
+                        <h5 class="fw-bold">SMK Negeri 5 Surakarta</h5>
+                        <p class="mb-1">Software Engineering</p>
+                        <p class="text-muted">2021 – 2024</p>
+                        <p>This is where my interest in web development and digital technology first grew and began to
+                            evolve.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact py-5 bg-dark" id="contact">
+        <div class="container px-5">
+            <h2 class="text-center fw-bold ">Contact</h2>
+            <p class="text-center mb-5">Reach out to Ega for collaboration, questions, or networking.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nama</label>
+                            <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="nama@email.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="message" rows="4"
+                                placeholder="Tulis pesan Anda..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
